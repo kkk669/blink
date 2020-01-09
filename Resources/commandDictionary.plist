@@ -93,13 +93,13 @@
 		<string>n</string>
 		<string>no</string>
 	</array>
-  <key>ed</key>
-  <array>
-    <string>text.framework/text</string>
-    <string>ed_main</string>
-    <string>p:sx</string>
-    <string>file</string>
-  </array>
+	<key>ed</key>
+	<array>
+		<string>text.framework/text</string>
+		<string>ed_main</string>
+		<string>p:sx</string>
+		<string>file</string>
+	</array>
 	<key>egrep</key>
 	<array>
 		<string>text.framework/text</string>
@@ -163,13 +163,13 @@
 		<string>46ac:dilnm:rst:vVwCDN:R:TW:</string>
 		<string>no</string>
 	</array>
-  <key>ifconfig</key>
-  <array>
-    <string>network_ios.framework/network_ios</string>
-    <string>ifconfig_main</string>
-    <string>abdlmruv</string>
-    <string>no</string>
-  </array>
+	<key>ifconfig</key>
+	<array>
+		<string>network_ios.framework/network_ios</string>
+		<string>ifconfig_main</string>
+		<string>abdlmruv</string>
+		<string>no</string>
+	</array>
 	<key>link</key>
 	<array>
 		<string>files.framework/files</string>
@@ -462,6 +462,153 @@
 		<string>shell.framework/shell</string>
 		<string>xargs_main</string>
 		<string>0E:I:J:L:n:oP:pR:s:tx</string>
+		<string>no</string>
+	</array>
+	<key>llvm-dis</key>
+	<array>
+		<string>dis.framework/dis</string>
+		<string>main</string>
+		<string></string>
+		<string>file</string>
+	</array>
+	<key>opt</key>
+	<array>
+		<string>opt.framework/opt</string>
+		<string>main</string>
+		<string></string>
+		<string>file</string>
+	</array>
+	<key>llvm-link</key>
+	<array>
+		<string>link.framework/link</string>
+		<string>main</string>
+		<string></string>
+		<string>file</string>
+	</array>
+	<key>nm</key>
+	<array>
+		<string>nm.framework/nm</string>
+		<string>main</string>
+		<string></string>
+		<string>file</string>
+	</array>
+	<key>lli</key>
+	<array>
+		<string>lli.framework/lli</string>
+		<string>main</string>
+		<string></string>
+		<string>file</string>
+	</array>
+	<key>llc</key>
+	<array>
+		<string>llc.framework/llc</string>
+		<string>main</string>
+		<string></string>
+		<string>file</string>
+	</array>
+	<key>lld</key>
+	<array>
+		<string>lld.framework/lld</string>
+		<string>main</string>
+		<string></string>
+		<string>file</string>
+	</array>
+	<key>ld</key>
+	<array>
+		<string>lld.framework/lld</string>
+		<string>main</string>
+		<string></string>
+		<string>file</string>
+	</array>
+	<key>wasm-ld</key>
+	<array>
+		<string>lld.framework/lld</string>
+		<string>main</string>
+		<string></string>
+		<string>file</string>
+	</array>
+	<key>lld-link</key>
+	<array>
+		<string>lld.framework/lld</string>
+		<string>main</string>
+		<string></string>
+		<string>file</string>
+	</array>
+	<key>ld.lld</key>
+	<array>
+		<string>lld.framework/lld</string>
+		<string>main</string>
+		<string></string>
+		<string>file</string>
+	</array>
+	<key>ld64.lld</key>
+	<array>
+		<string>lld.framework/lld</string>
+		<string>main</string>
+		<string></string>
+		<string>file</string>
+	</array>
+	<key>clang</key>
+	<array>
+		<string>clang.framework/clang</string>
+		<string>main</string>
+		<string></string>
+		<string>file</string>
+	</array>
+	<key>clang++</key>
+	<array>
+		<string>clang.framework/clang</string>
+		<string>main</string>
+		<string></string>
+		<string>file</string>
+	</array>
+	<key>vim</key>
+	<array>
+		<string>vim.framework/vim</string>
+		<string>main</string>
+		<string></string>
+		<string></string>
+	</array>
+	<key>python3</key>
+	<array>
+		<string>python3_ios.framework/python3_ios</string>
+		<string>python_main</string>
+		<string>3bBc:dEhiJm:OQ:RsStuUvVW:xX?</string>
+		<string>file</string>
+	</array>
+	<key>python</key>
+	<array>
+		<string>python3_ios.framework/python3_ios</string>
+		<string>python_main</string>
+		<string>3bBc:dEhiJm:OQ:RsStuUvVW:xX?</string>
+		<string>file</string>
+	</array>
+	<key>pythonA</key>
+	<array>
+		<string>pythonA.framework/pythonA</string>
+		<string>python_main</string>
+		<string></string>
+		<string>no</string>
+	</array>
+	<key>lua</key>
+	<array>
+		<string>lua_ios.framework/lua_ios</string>
+		<string>lua_main</string>
+		<string>e:il:vE</string>
+		<string>file</string>
+	</array>
+	<key>luac</key>
+	<array>
+		<string>lua_ios.framework/lua_ios</string>
+		<string>luac_main</string>
+		<string>lpsvo:</string>
+		<string>file</string>
+	</array>
+	<key>bc</key>
+	<array>
+		<string>bc_ios.framework/bc_ios</string>
+		<string>bcdc_main</string>
+		<string>e:f:hilqsvVwx</string>
 		<string>no</string>
 	</array>
 </dict>

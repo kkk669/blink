@@ -1,0 +1,11 @@
+#!/var/mobile/Containers/Data/Application/C4C9F2D6-A845-4A1F-A5E0-34E1BBE7E0C3/Library/bin/python3
+
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from setuptools.command.easy_install import main
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())

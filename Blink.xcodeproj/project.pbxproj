@@ -40,6 +40,26 @@
 		22E1F3362036EE87001FCC5C /* libssh2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22E1F3342036EE86001FCC5C /* libssh2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		85A34307200A837A009324F1 /* webfontloader.js in Resources */ = {isa = PBXBuildFile; fileRef = 85A34303200A837A009324F1 /* webfontloader.js */; };
 		85A34309200A8FAF009324F1 /* term.css in Resources */ = {isa = PBXBuildFile; fileRef = 85A34308200A8FAF009324F1 /* term.css */; };
+		8993840B23C789BF00A8F7A9 /* dis.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 899383FD23C7876800A8F7A9 /* dis.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8993840C23C789C000A8F7A9 /* libLLVM.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8993840123C7876900A8F7A9 /* libLLVM.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8993840D23C789C000A8F7A9 /* link.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8993840023C7876800A8F7A9 /* link.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8993840E23C789C000A8F7A9 /* llc.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 899383FB23C7876800A8F7A9 /* llc.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8993840F23C789C000A8F7A9 /* lld.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 899383FF23C7876800A8F7A9 /* lld.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8993841023C789C000A8F7A9 /* lli.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 899383FA23C7876800A8F7A9 /* lli.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8993841123C789C000A8F7A9 /* nm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 899383F923C7876800A8F7A9 /* nm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8993841223C789C000A8F7A9 /* opt.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 899383FE23C7876800A8F7A9 /* opt.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8993841323C789C000A8F7A9 /* vim.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 899383FC23C7876800A8F7A9 /* vim.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8993841523C78BB000A8F7A9 /* clang.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8993841423C78BAF00A8F7A9 /* clang.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8993887423C78DB700A8F7A9 /* usr in Resources */ = {isa = PBXBuildFile; fileRef = 8993887323C78DB700A8F7A9 /* usr */; };
+		8993887623C790C300A8F7A9 /* vim in Resources */ = {isa = PBXBuildFile; fileRef = 8993887523C790C300A8F7A9 /* vim */; };
+		8993887923C7935500A8F7A9 /* python3_ios.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8993887723C7935500A8F7A9 /* python3_ios.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8993887A23C7935500A8F7A9 /* pythonA.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8993887823C7935500A8F7A9 /* pythonA.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8993887C23C793E300A8F7A9 /* Library in Resources */ = {isa = PBXBuildFile; fileRef = 8993887B23C793E300A8F7A9 /* Library */; };
+		8993888023C7964400A8F7A9 /* freetype.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8993887D23C7964300A8F7A9 /* freetype.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8993888123C7964400A8F7A9 /* harfbuzz.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8993887E23C7964300A8F7A9 /* harfbuzz.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8993888223C7964400A8F7A9 /* openblas.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8993887F23C7964300A8F7A9 /* openblas.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8993888423C7976000A8F7A9 /* bc_ios.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8993888323C7976000A8F7A9 /* bc_ios.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8993888623C7999600A8F7A9 /* lua_ios.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8993888523C7999600A8F7A9 /* lua_ios.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B700AED81DD0F2C200100EBF /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B700AED71DD0F2C200100EBF /* CloudKit.framework */; };
 		B75112CD1DE4A7B10040C693 /* BKiCloudConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75112CC1DE4A7B10040C693 /* BKiCloudConfigurationViewController.m */; };
 		B752EE2B1DFEF19D00E305C8 /* BKUserConfigurationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B752EE2A1DFEF19D00E305C8 /* BKUserConfigurationManager.m */; };
@@ -350,6 +370,23 @@
 				D2A3F50420690D7E006BB305 /* ssh_cmd.framework in Embed Frameworks */,
 				D2A3F4FE20690D23006BB305 /* text.framework in Embed Frameworks */,
 				D2A3F50620690D8A006BB305 /* curl_ios.framework in Embed Frameworks */,
+				8993841523C78BB000A8F7A9 /* clang.framework in Embed Frameworks */,
+				8993840B23C789BF00A8F7A9 /* dis.framework in Embed Frameworks */,
+				8993840C23C789C000A8F7A9 /* libLLVM.framework in Embed Frameworks */,
+				8993840D23C789C000A8F7A9 /* link.framework in Embed Frameworks */,
+				8993840E23C789C000A8F7A9 /* llc.framework in Embed Frameworks */,
+				8993840F23C789C000A8F7A9 /* lld.framework in Embed Frameworks */,
+				8993841023C789C000A8F7A9 /* lli.framework in Embed Frameworks */,
+				8993841123C789C000A8F7A9 /* nm.framework in Embed Frameworks */,
+				8993841223C789C000A8F7A9 /* opt.framework in Embed Frameworks */,
+				8993841323C789C000A8F7A9 /* vim.framework in Embed Frameworks */,
+				8993887923C7935500A8F7A9 /* python3_ios.framework in Embed Frameworks */,
+				8993887A23C7935500A8F7A9 /* pythonA.framework in Embed Frameworks */,
+				8993888223C7964400A8F7A9 /* openblas.framework in Embed Frameworks */,
+				8993888023C7964400A8F7A9 /* freetype.framework in Embed Frameworks */,
+				8993888123C7964400A8F7A9 /* harfbuzz.framework in Embed Frameworks */,
+				8993888423C7976000A8F7A9 /* bc_ios.framework in Embed Frameworks */,
+				8993888623C7999600A8F7A9 /* lua_ios.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,6 +440,26 @@
 		22E1F3342036EE86001FCC5C /* libssh2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libssh2.framework; sourceTree = "<group>"; };
 		85A34303200A837A009324F1 /* webfontloader.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = webfontloader.js; sourceTree = "<group>"; };
 		85A34308200A8FAF009324F1 /* term.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = term.css; sourceTree = "<group>"; };
+		899383F923C7876800A8F7A9 /* nm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nm.framework; sourceTree = "<group>"; };
+		899383FA23C7876800A8F7A9 /* lli.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = lli.framework; sourceTree = "<group>"; };
+		899383FB23C7876800A8F7A9 /* llc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = llc.framework; sourceTree = "<group>"; };
+		899383FC23C7876800A8F7A9 /* vim.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = vim.framework; sourceTree = "<group>"; };
+		899383FD23C7876800A8F7A9 /* dis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = dis.framework; sourceTree = "<group>"; };
+		899383FE23C7876800A8F7A9 /* opt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opt.framework; sourceTree = "<group>"; };
+		899383FF23C7876800A8F7A9 /* lld.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = lld.framework; sourceTree = "<group>"; };
+		8993840023C7876800A8F7A9 /* link.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = link.framework; sourceTree = "<group>"; };
+		8993840123C7876900A8F7A9 /* libLLVM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libLLVM.framework; sourceTree = "<group>"; };
+		8993841423C78BAF00A8F7A9 /* clang.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = clang.framework; sourceTree = "<group>"; };
+		8993887323C78DB700A8F7A9 /* usr */ = {isa = PBXFileReference; lastKnownFileType = folder; path = usr; sourceTree = "<group>"; };
+		8993887523C790C300A8F7A9 /* vim */ = {isa = PBXFileReference; lastKnownFileType = folder; path = vim; sourceTree = "<group>"; };
+		8993887723C7935500A8F7A9 /* python3_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = python3_ios.framework; sourceTree = "<group>"; };
+		8993887823C7935500A8F7A9 /* pythonA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = pythonA.framework; sourceTree = "<group>"; };
+		8993887B23C793E300A8F7A9 /* Library */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Library; sourceTree = "<group>"; };
+		8993887D23C7964300A8F7A9 /* freetype.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = freetype.framework; sourceTree = "<group>"; };
+		8993887E23C7964300A8F7A9 /* harfbuzz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = harfbuzz.framework; sourceTree = "<group>"; };
+		8993887F23C7964300A8F7A9 /* openblas.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = openblas.framework; sourceTree = "<group>"; };
+		8993888323C7976000A8F7A9 /* bc_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = bc_ios.framework; sourceTree = "<group>"; };
+		8993888523C7999600A8F7A9 /* lua_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = lua_ios.framework; sourceTree = "<group>"; };
 		B700AED71DD0F2C200100EBF /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		B75112CB1DE4A7B10040C693 /* BKiCloudConfigurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKiCloudConfigurationViewController.h; sourceTree = "<group>"; };
 		B75112CC1DE4A7B10040C693 /* BKiCloudConfigurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKiCloudConfigurationViewController.m; sourceTree = "<group>"; };
@@ -776,6 +833,9 @@
 		0732F0481D062B9A00AB5438 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8993887B23C793E300A8F7A9 /* Library */,
+				8993887523C790C300A8F7A9 /* vim */,
+				8993887323C78DB700A8F7A9 /* usr */,
 				D2C24427238E44CC0082C69C /* kb.html */,
 				D2C24426238E44CC0082C69C /* kb.js */,
 				D21A3FC521943BE200269705 /* DarkAppIcon */,
@@ -800,6 +860,23 @@
 		0732F04F1D062BB300AB5438 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8993888523C7999600A8F7A9 /* lua_ios.framework */,
+				8993888323C7976000A8F7A9 /* bc_ios.framework */,
+				8993887D23C7964300A8F7A9 /* freetype.framework */,
+				8993887E23C7964300A8F7A9 /* harfbuzz.framework */,
+				8993887F23C7964300A8F7A9 /* openblas.framework */,
+				8993887723C7935500A8F7A9 /* python3_ios.framework */,
+				8993887823C7935500A8F7A9 /* pythonA.framework */,
+				8993841423C78BAF00A8F7A9 /* clang.framework */,
+				899383FD23C7876800A8F7A9 /* dis.framework */,
+				8993840123C7876900A8F7A9 /* libLLVM.framework */,
+				8993840023C7876800A8F7A9 /* link.framework */,
+				899383FB23C7876800A8F7A9 /* llc.framework */,
+				899383FF23C7876800A8F7A9 /* lld.framework */,
+				899383FA23C7876800A8F7A9 /* lli.framework */,
+				899383F923C7876800A8F7A9 /* nm.framework */,
+				899383FE23C7876800A8F7A9 /* opt.framework */,
+				899383FC23C7876800A8F7A9 /* vim.framework */,
 				D28DB3AB210B110B008A1139 /* libcompression.tbd */,
 				D2E4F92920B2BB4500B30F7B /* curl_ios_static.xcodeproj */,
 				D2A3F4F520690C24006BB305 /* awk.framework */,
@@ -1443,7 +1520,7 @@
 					};
 					EA0BA18A1C0CC57B00719C1A = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = HV2S48975V;
+						DevelopmentTeam = X4678G5DL2;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -1579,6 +1656,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8993887C23C793E300A8F7A9 /* Library in Resources */,
 				D2C24429238E44CD0082C69C /* kb.html in Resources */,
 				D21A3FE321943BE200269705 /* dark-notification-ipad-20pt@2x.png in Resources */,
 				07E3AED31D919272007BC086 /* css in Resources */,
@@ -1594,6 +1672,7 @@
 				D29FE54B208DC860004679D0 /* extraCommandsDictionary.plist in Resources */,
 				D21A3FD921943BE200269705 /* dark-settings-iphone-29pt@3x.png in Resources */,
 				D21A3FE021943BE200269705 /* dark-notification-iphone-20pt@3x.png in Resources */,
+				8993887623C790C300A8F7A9 /* vim in Resources */,
 				07E4C5211C935E28000C571A /* Media.xcassets in Resources */,
 				0732F04D1D062B9A00AB5438 /* locales.bundle in Resources */,
 				D21A3FE221943BE200269705 /* dark-spotlight-ipad-40pt.png in Resources */,
@@ -1614,6 +1693,7 @@
 				D2094662204D3FC5003C4F72 /* cacert.pem in Resources */,
 				85A34309200A8FAF009324F1 /* term.css in Resources */,
 				0732F04E1D062B9A00AB5438 /* term.html in Resources */,
+				8993887423C78DB700A8F7A9 /* usr in Resources */,
 				07E3AED11D9191B4007BC086 /* blink.png in Resources */,
 				D21A3FE721943BE200269705 /* dark-app-ipad-76pt@2x.png in Resources */,
 				C9B2E02F1D6B612400B89F69 /* Settings.storyboard in Resources */,
@@ -2021,7 +2101,7 @@
 				CURRENT_PROJECT_VERSION = 219;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = HV2S48975V;
+				DEVELOPMENT_TEAM = X4678G5DL2;
 				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2041,10 +2121,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks/lib",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Resources/usr/lib/clang/10.0.0/lib/wasi",
 				);
 				MARKETING_VERSION = 13.3;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = Com.CarlosCabanero.BlinkShell;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.kebo.BlinkShell;
 				PRODUCT_NAME = Blink;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				RUN_CLANG_STATIC_ANALYZER = YES;
@@ -2065,7 +2146,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 219;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = HV2S48975V;
+				DEVELOPMENT_TEAM = X4678G5DL2;
 				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2082,10 +2163,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks/lib",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Resources/usr/lib/clang/10.0.0/lib/wasi",
 				);
 				MARKETING_VERSION = 13.3;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = Com.CarlosCabanero.BlinkShell;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.kebo.BlinkShell;
 				PRODUCT_NAME = Blink;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRIP_STYLE = "non-global";
